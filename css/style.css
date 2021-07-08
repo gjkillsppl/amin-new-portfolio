@@ -17,13 +17,13 @@
 }
 
 .case-study-name-title, .case-study-images li .hero-number-back {
-  font-family: "Neutro";
+  font-family: "Neutro Outline ";
   font-weight: 500;
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6, .case-study-wrapper .case-study-name {
-  font-family: "Windsor D";
+  font-family: "WindsorD";
   font-weight: 600;
 }
 

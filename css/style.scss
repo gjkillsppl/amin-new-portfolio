@@ -33,12 +33,12 @@ $tipografia-adicional: "Neutro Outline ";
 
 
 %tipografia-adicional{
-  font-family: "Neutro";
+  font-family: $tipografia-adicional;
   font-weight:500;
 }
 
 %tipografia-titulo{
-  font-family: "Windsor D";
+  font-family: $tipografia-titulo;
   font-weight:600;
 }
 
