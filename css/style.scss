@@ -1,12 +1,33 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,300;0,500;0,700;1,600&display=swap');
+
+@font-face {
+  font-family: 'WindsorD';
+  src: url('WindsorD-Reg.woff2') format('woff2'),
+      url('WindsorD-Reg.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neutro Outline';
+  src: url('NeutroOutline.woff2') format('woff2'),
+      url('NeutroOutline.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 
 $segundo-color:#EEE5DD;
 $primer-color:#21201F;
 $tercer-color:#E15B5B;
-$tipografia-titulo: "Windsor D";
-$tipografia-parrafo: "IBM Plex Mono";
-$tipografia-adicional: "Neutro ";
+$tipografia-titulo: "WindsorD";
+$tipografia-parrafo: "IBM Plex Mono', monospace;";
+$tipografia-adicional: "Neutro Outline ";
 
 
 
