@@ -143,6 +143,16 @@ mark {
   background-color: #000;
 }
 
+.comingsoon{
+  font-size:11px;
+  font-weight:200;
+  border-radius:1rem;
+  padding:.4rem;
+  margin-top:.5rem;
+  border:.8px solid white;
+  font-family: "pp_neue_machinaplainultraLt";
+}
+
 .role {
   font-weight: 600;
   color:#deebc8;
@@ -1043,6 +1053,7 @@ body.nav-active .nav__list-item:nth-child(10) {
   position: relative;
   display: inline-block;
   font-weight:500;
+  font-family:'pp_neue_machinaplainultraLt';
 }
 
 .case-study-wrapper:hover .case-study-name span:hover:before {
@@ -1066,8 +1077,10 @@ body.nav-active .nav__list-item:nth-child(10) {
           transform: scale(1.1) translateX(10px);
 }
 
-.case-study-wrapper .case-study-name.active {
+.case-study-wrapper .case-study-name.active span{
   color:#deebc8;
+  border-color:#deebc8;
+  font-family: 'pp_neue_machinaplain_semibold';
 }
 
 .case-study-images {
