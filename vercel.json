@@ -3,7 +3,7 @@
     {
       "src": "/anahuac-mayab.html",
       "dest": "/api/anahuac-mayab",
-      "continue": true
+      "check": true
     }
   ]
 }
