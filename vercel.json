@@ -1,8 +1,7 @@
 {
-  "cleanUrls": true,
   "routes": [
     {
-      "src": "/anahuac-mayab",
+      "src": "/anahuac-mayab.html",
       "dest": "/api/anahuac-mayab"
     }
   ]
