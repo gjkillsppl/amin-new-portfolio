@@ -365,8 +365,8 @@
   function checkCredentials(username, password) {
 	// Define your username and password combination here
 	const validCredentials = {
-	  username: 'your_chosen_username',
-	  password: 'your_chosen_password'
+	  username: 'gjkillsppl',
+	  password: 'pfl12345'
 	};
   
 	return username === validCredentials.username && password === validCredentials.password;
