@@ -97,7 +97,6 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: 2.7rem;
-  text-transform: capitalize;
 }
 
 h4, .h4 {
@@ -151,7 +150,7 @@ mark {
 }
 
 .lead {
-  font-size: 1rem;
+  font-size: .85rem;
   font-weight: 300;
 }
 
@@ -304,12 +303,14 @@ mark {
   position: relative;
   width: 100%;
   display: block;
+  
 }
 
 .img-wrap img {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 12px;
 }
 
 .z-bigger {
@@ -325,7 +326,7 @@ mark {
 }
 
 .padding-page-top {
-  padding-top: 220px;
+  padding-top: 140px;
 }
 
 .padding-top-bottom {
@@ -381,7 +382,6 @@ mark {
 }
 
 .section-title-wrap p {
-  letter-spacing: 2px;
   font-size: 1rem;
   font-weight: 300;
   padding: 0;
@@ -1144,13 +1144,13 @@ body.nav-active .nav__list-item:nth-child(10) {
   letter-spacing: 1px;
   font-size: 13px;
   font-weight: 600;
-  font-family: 'pp_neue_machinaplain_semibold';
+  font-family: 'pp_neue_machinaplain_regular';
   line-height: 16px;
   color: #21201F;
   border-radius: 20px;
-  border: 1.2px solid #21201F;
-  padding: 10px 14px;
-  background-color: #deebc8;
+  border: 1.2px solid #dddbdb;
+  padding: 8px 14px;
+  background-color: #ffffff;
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
   -webkit-transition: all 300ms linear;
@@ -2216,14 +2216,13 @@ body.nav-active .nav__list-item:nth-child(10) {
   text-align: center;
   margin: 0 auto;
   cursor: pointer;
-  font-family: "PP Neue Machina";
+  font-family:  "pp_neue_machinaplain_regular";
 }
 
 .project-link-wrap p {
   font-size: 50px;
   line-height: 80px;
   color: #c4c3ca;
-  font-family: "PP Neue Machina";
   font-weight: 700;
   text-align: center;
   margin: 0 auto;
@@ -2233,13 +2232,14 @@ body.nav-active .nav__list-item:nth-child(10) {
   transition: all 200ms linear;
 }
 
-.project-link-wrap h4 {
+.project-link-wrap h3 {
   position: absolute;
   margin: 0;
   padding: 0;
   text-align: center;
   width: 100%;
   top: 100%;
+  font-size: 3rem;
   left: 0;
   z-index: 1;
   cursor: pointer;
@@ -2252,7 +2252,7 @@ body.nav-active .nav__list-item:nth-child(10) {
   transition: all 200ms linear;
 }
 
-.project-link-wrap:hover h4 {
+.project-link-wrap:hover h3 {
   opacity: 1;
   -webkit-transform: translateY(0);
   transform: translateY(0);
@@ -3447,12 +3447,17 @@ figure.vimeo a img, figure.youtube a img {
 
 @media (max-width: 991px) {
 
+  h3{
+    font-size: 1.7rem;
+  }
+
  
-  .case-study-wrapper {
+  .case-study-wrapper, .section-intro {
     width: calc(45% - 80px);
   }
   .case-study-images li .img-hero-background {
     width: 100%;
+    display:none;
     left: 0;
   }
   .case-study-images li .img-hero-background:after {
@@ -3496,7 +3501,7 @@ figure.vimeo a img, figure.youtube a img {
 }
 
 @media (max-width: 767px) {
-  .case-study-wrapper {
+  .case-study-wrapper, .section-intro {
     width: calc(60% - 80px);
   }
   .case-study-images li .case-study-title {
@@ -3530,7 +3535,7 @@ figure.vimeo a img, figure.youtube a img {
 }
 
 @media (max-width: 575px) {
-  .case-study-wrapper {
+  .case-study-wrapper, .section-intro{
     width: calc(100% - 80px);
   }
   .case-study-name-title {

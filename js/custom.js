@@ -137,9 +137,9 @@
 		
 		$(".animsition").animsition({	  
 			inClass               :   'fade-in-down-sm',
-			outClass              :   'fade-out-down-sm',
-			inDuration            :    600,
-			outDuration           :    400,
+			outClass              :   'fade-out-right-sm',
+			inDuration            :    800,
+			outDuration           :    600,
 			linkElement           :   '.animsition-link', 
 			// e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
 			loading               :    true,
