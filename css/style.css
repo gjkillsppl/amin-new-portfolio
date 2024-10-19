@@ -142,6 +142,15 @@ mark {
   background-color: #000;
 }
 
+a.cursor-link.animsition-link.coming-soon-link{
+  pointer-events: none;
+}
+
+.case-study-name:hover  .coming-soon-link::after{
+  opacity: 0;
+  display: none;
+}
+
 
 .role {
   font-weight: 600;
@@ -521,6 +530,7 @@ a:hover {
   width: auto;
   display: block;
   cursor: pointer;
+  margin-left: .1rem;
 }
 
 .cd-header {
@@ -629,7 +639,7 @@ a:hover {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background: #21201F;
+  background: #121212;
   z-index: -1;
   -webkit-transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
   transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
@@ -708,13 +718,13 @@ a:hover {
 .nav__list-item a:after {
   position: absolute;
   content: "";
-  top: 60%;
+  top: 79%;
   left: -100%;
   width: 100%;
   height: 5px;
   opacity: 0;
   margin-top: 3px;
-  background-color: #deebc8;
+  background-color: #ffffff;
   z-index: 3;
   transform: rotate3d(1, 1, 1, 358deg);
   -webkit-transition: all 200ms linear;
@@ -2591,6 +2601,9 @@ figure.vimeo a img, figure.youtube a img {
 .case-study-wrapper .case-study-name:hover .project-name {
   margin-right: .5rem;
 }
+
+
+
 
 
 .separator-line {
