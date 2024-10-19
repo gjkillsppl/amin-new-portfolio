@@ -361,3 +361,28 @@
 
 	
   })(jQuery); 
+
+  function checkCredentials(username, password) {
+	// Define your username and password combination here
+	const validCredentials = {
+	  username: 'your_chosen_username',
+	  password: 'your_chosen_password'
+	};
+  
+	return username === validCredentials.username && password === validCredentials.password;
+  }
+  
+  function authenticatePage() {
+	const storedAuth = sessionStorage.getItem('authenticated');
+	if (!storedAuth) {
+	  const username = prompt('Please enter your username:');
+	  const password = prompt('Please enter your password:');
+	  
+	  if (checkCredentials(username, password)) {
+		sessionStorage.setItem('authenticated', 'true');
+	  } else {
+		alert('Incorrect username or password. Access denied.');
+		window.location.href = 'index.html';
+	  }
+	}
+  }
