@@ -3512,13 +3512,13 @@ figure.vimeo a img, figure.youtube a img {
   }
   @media (max-width: 767px) {
     .case-study-wrapper, .section-intro {
-      width: calc(100% - 30px);
+      width: calc(100% - 50px);
       margin: 0 auto;
     }
   }
   @media (max-width: 575px) {
     .case-study-wrapper, .section-intro, .header-wrapper {
-      width: calc(100% - 30px);
+      width: calc(100% - 50px);
       margin: 0 auto;
       padding: 0 15px;
     }
