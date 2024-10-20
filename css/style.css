@@ -335,16 +335,16 @@ a.cursor-link.animsition-link.coming-soon-link{
 }
 
 .padding-top-bottom {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .padding-top {
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 .padding-bottom {
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 
 .padding-top-bottom-big {
@@ -2216,7 +2216,7 @@ cursor: pointer !important;
 .tldr {
   padding: 2rem;
   background-color: #ff23231f;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
   border-radius: 12px;
   margin-right: 15px;
   margin-left: 15px;
