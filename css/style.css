@@ -1159,12 +1159,12 @@ cursor: pointer !important;
 
 .case-study-images li .hero-number-back {
   position: absolute;
-  bottom: -20px;
+  bottom: 0px;
   left: 10px;
   display: block;
   list-style: none;
   opacity: 0;
-  font-size: 14vw;
+  font-size: 12vw;
   font-style: italic;
   line-height: 1;
   color: #deebc8;
@@ -3385,9 +3385,7 @@ figure.vimeo a img, figure.youtube a img {
     vertical-align: top;
     padding-bottom: 5px;
   }
-  .case-study-images li .hero-number-back {
-    color: rgb(222, 235, 200, 0.6);
-  }
+ 
   .section-title-wrap h1 {
     font-size: 4rem;
   }
@@ -3497,7 +3495,6 @@ figure.vimeo a img, figure.youtube a img {
     bottom: 55px;
   }
   .case-study-images li .hero-number-back {
-    color: rgba(255, 255, 255, 0.4);
     font-size: 20vw;
     left: 20px;
     bottom: 0;
@@ -3526,7 +3523,7 @@ figure.vimeo a img, figure.youtube a img {
   .case-study-images li .hero-number-back {
     font-size: 30vw;
     left: 20px;
-    bottom: 20;
+    bottom:30px;
   }
   .portfolio-box {
     width: 100%;
