@@ -2218,6 +2218,8 @@ cursor: pointer !important;
   background-color: #ff23231f;
   margin-bottom: 100px;
   border-radius: 12px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .tldr h5 {
