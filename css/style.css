@@ -3395,6 +3395,7 @@ figure.vimeo a img, figure.youtube a img {
 
   .section-intro{
     width: 90%;
+    left: 15px;
     margin: 0 auto;
   }
 
@@ -3403,8 +3404,7 @@ figure.vimeo a img, figure.youtube a img {
   }
   
   .case-study-wrapper {
-    width: calc(40% - 80px);
-    top: 50%;
+    left: 15px;
   }
   .case-study-name-title {
     left: calc(40% + 40px);
@@ -3471,10 +3471,6 @@ figure.vimeo a img, figure.youtube a img {
     font-size: 1.7rem;
   }
 
- 
-  .case-study-wrapper, .section-intro {
-    width: calc(45% - 80px);
-  }
   .case-study-images li .img-hero-background {
     width: 100%;
     display:none;
@@ -3514,15 +3510,26 @@ figure.vimeo a img, figure.youtube a img {
   .lead-q {
     font-size: 1.4rem;
   }
+  @media (max-width: 767px) {
+    .case-study-wrapper, .section-intro {
+      width: calc(100% - 30px);
+      margin: 0 auto;
+    }
+  }
+  @media (max-width: 575px) {
+    .case-study-wrapper, .section-intro, .header-wrapper {
+      width: calc(100% - 30px);
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+  }
+
   .padding-page-top {
     padding-top: 170px;
   }
 }
 
 @media (max-width: 767px) {
-  .case-study-wrapper, .section-intro {
-    width: calc(60% - 80px);
-  }
   .case-study-images li .case-study-title {
     display: none;
   }
@@ -3554,9 +3561,7 @@ figure.vimeo a img, figure.youtube a img {
 }
 
 @media (max-width: 575px) {
-  .case-study-wrapper, .section-intro{
-    width: calc(100% - 80px);
-  }
+
   .case-study-name-title {
     display: none;
   }
