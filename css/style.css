@@ -3466,8 +3466,12 @@ figure.vimeo a img, figure.youtube a img {
     display: none;
   }
   .project-link-wrap p {
-    font-size: 60px;
-    line-height: 40px;
+    font-size: 2rem;
+    line-height: 130%;
+  }
+
+  .project-link-wrap p:hover{
+    color: #deebc8;
   }
   .project-link-wrap h4 {
     font-size: 1.6rem;
