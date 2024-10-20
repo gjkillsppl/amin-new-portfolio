@@ -3526,7 +3526,7 @@ figure.vimeo a img, figure.youtube a img {
   .case-study-images li .hero-number-back {
     font-size: 30vw;
     left: 20px;
-    bottom: 0;
+    bottom: 20;
   }
   .portfolio-box {
     width: 100%;
