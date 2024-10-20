@@ -3394,11 +3394,17 @@ figure.vimeo a img, figure.youtube a img {
 @media (max-width: 1199px) {
 
   .section-intro{
-    width: calc(40% - 80px);
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .section-intro p{
+    font-size: .9rem;
   }
   
   .case-study-wrapper {
     width: calc(40% - 80px);
+    top: 50%;
   }
   .case-study-name-title {
     left: calc(40% + 40px);
