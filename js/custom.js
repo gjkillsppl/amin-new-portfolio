@@ -129,6 +129,19 @@
 	}
 	scrollBanner();		
 
+
+	document.querySelector('.menu-icon').addEventListener('keydown', function(event) {
+		if (event.key === 'Enter' || event.key === ' ') {
+			event.preventDefault();
+			// Call your existing function to toggle the menu
+			toggleMenu();
+		}
+	});
+	
+	function toggleMenu() {
+		// Your existing code to open/close the menu
+	}
+
 	
 	$(document).ready(function() {
 		
@@ -157,6 +170,29 @@
 			overlayClass          :   'animsition-overlay-slide',
 			overlayParentElement  :   'body'
 		});	
+		$(".animsition2").animsition({	  
+			inClass               :   'fade-in-down-sm',
+			outClass              :   'fade-out-up-sm',
+			inDuration            :    800,
+			outDuration           :    600,
+			linkElement           :   '.animsition-link-2', 
+			// e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
+			loading               :    true,
+			loadingParentElement  :   'body', //animsition wrapper element
+			loadingClass          :   'animsition-loading',
+			unSupportCss          : [ 'animation-duration',
+									  '-webkit-animation-duration',
+									  '-o-animation-duration'
+									],
+			//"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser. 
+			//The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+			
+			overlay               :   false,
+			
+			overlayClass          :   'animsition-overlay-slide',
+			overlayParentElement  :   'body'
+		});	
+
 
 		
 		//Scroll back to top

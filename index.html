@@ -7,7 +7,7 @@
 	<!-- Basic Page Needs
 	================================================== -->
 	<meta charset="utf-8">
-	<title>Amin Wejebe Shanahan | UI - UX Designer / Frontend Developer</title>
+	<title>Amin Wejebe Shanahan | UI/UX Designer and Frontend Developer Portfolio</title>
 	
 
 	<meta property="og:type" content="website" />
@@ -16,6 +16,7 @@
 	<meta property="og:image:width" content="470" />
 	<meta property="og:image:height" content="246" />
 	<meta property="og:site_name" content="" />
+	<meta name="description" content="Portfolio of Amin Wejebe Shanahan, a UI/UX Designer and Frontend Developer with 8+ years of experience in crafting thoughtful experiences from Mérida, Mexico.">
 
 
 	<!-- Mobile Specific Metas
@@ -56,43 +57,40 @@
 		<header class="cd-header">
 			<div class="header-wrapper">
 				<div class="logo-wrap">
-					<a href="index.html" class="cursor-link animsition-link"><img src="img/amin-logo.svg" alt=""></a>
+					<a href="index.html" class="cursor-link animsition-link"><img src="img/amin-logo.svg" alt="Amin Wejebe Shanahan logo" class="logo-image"></a>
 				</div>
 				<div class="nav-but-wrap">
-					<div class="menu-icon cursor-link">
+					<div class="menu-icon cursor-link" tabindex="0" role="button" aria-label="Toggle menu">
 						<span class="menu-icon__line menu-icon__line-left"></span>
 						<span class="menu-icon__line"></span>
 						<span class="menu-icon__line menu-icon__line-right"></span>
 					</div>					
 				</div>					
+				<div class="nav__content">
+					<ul class="nav__list">
+						<li class="nav__list-item active-nav"><a href="index.html" class="cursor-link animsition-link-2" aria-current="page">Work</a></li>
+						<li class="nav__list-item"><a href="me.html" class="cursor-link animsition-link-2">About</a></li>
+						<li class="nav__list-item"><a href="contact.html" class="cursor-link animsition-link-2">Contact</a></li>
+					</ul>
+				</div>
 			</div>				
 		</header>
-
-		<div class="nav">
-			<div class="nav__content">
-				<ul class="nav__list">
-					<li class="nav__list-item active-nav"><a href="index.html" class="cursor-link animsition-link">work</a>
-					</li>
-					<li class="nav__list-item"><a href="me.html" class="cursor-link animsition-link">about</a></li>
-					<li class="nav__list-item"><a href="contact.html" class="cursor-link animsition-link">contact</a></li>
-				</ul>
-			</div>
-		</div>	
 
 		<!-- Primary Page Layout
 		================================================== -->
 
 
 	
-		<div class="section full-height over-hide background-dark-2">
+		<div id="main-content" class="section full-height over-hide background-dark-2">
 			<div class="section-intro">
-			<p>Product and Experience Designer with 8+ years of crafting thoughtful experiences from sunny Mérida, Mexico.</p>
+				<p>Product and Experience Designer with 8+ years of crafting thoughtful experiences from sunny Mérida, Mexico.</p>
 			</div>
 			<ul class="case-study-wrapper">
-			<li class="case-study-name">                                          	
-				<div class="project">                                     	
-				 <span class="project-name">Verato</span></div>
-				 <a href="" class="cursor-link animsition-link coming-soon-link">Coming Soon</a>
+			<li class="case-study-name">
+				<div class="project">
+					<span class="project-name">Verato</span>
+				</div>
+				<a href="" class="cursor-link animsition-link coming-soon-link" aria-label="Verato project - Coming Soon">Coming Soon</a>
 			</li>
 			<li class="case-study-name">                                          	
 				<div class="project">                                     	
@@ -131,8 +129,8 @@
 			<ul class="case-study-images">
 				<li>
 					<div class="img-hero-background" style="background-image: url('img/portfolio/verato/veratoviewcover.png');"></div> 
-					<div class="hero-number-back">01</div> 
-					<div class="hero-number">01</div> 
+					<div class="hero-number-back" aria-hidden="true">01</div> 
+					<div class="hero-number" aria-hidden="true">01</div> 
 					<div class="case-study-title">UI/UX Design</div> 
 				</li>
 				<li>
@@ -176,10 +174,9 @@
 
 			</ul>	
 			<div class="social-wrap">
-				follow
+				<p>Follow</p>
 				<ul>
-					<li><a href="https://www.linkedin.com/in/amin-wejebe-650633102/" class="cursor-link">in</a></li>
-				
+					<li><a href="https://www.linkedin.com/in/amin-wejebe-650633102/" class="cursor-link" aria-label="LinkedIn Profile">LinkedIn</a></li>
 				</ul>
 			</div>	
 		</div>
