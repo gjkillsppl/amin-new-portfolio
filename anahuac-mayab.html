@@ -17,6 +17,8 @@
     <meta name="msapplication-navbutton-color" content="#212121" />
     <meta name="apple-mobile-web-app-status-bar-style" content="#212121" />
 
+    <meta name="description" content="Case study of UX/UI design and development work for Anahuac Mayab University website">
+
    
 
     <!-- CSS
@@ -53,7 +55,7 @@
         <!-- Nav and Logo
 		================================================== -->
 
-        <header class="cd-header">
+        <header class="cd-header" role="banner">
             <div class="header-wrapper">
                 <div class="logo-wrap">
                     <a href="index.html" class="cursor-link animsition-link"><img src="img/amin-logo.svg" alt=""></a>
@@ -68,7 +70,7 @@
             </div>
         </header>
 
-        <div class="nav">
+        <nav class="nav" role="navigation" aria-label="Main navigation">
             <div class="nav__content">
                 <ul class="nav__list">
                     <li class="nav__list-item active-nav"><a href="index.html"
@@ -79,140 +81,141 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </nav>
 
         <!-- Primary Page Layout
 		================================================== -->
 
-        <div class="section big-65-height ">
+        <main role="main">
+            <section class="section big-65-height" aria-labelledby="hero-title">
 
-            <div class="parallax parallax-top"
-                style="background-image: url('img/portfolio/anahuac/instalaciones.jpeg')"></div>
-            <div class="dark-over-pages"></div>
+                <div class="parallax parallax-top"
+                    style="background-image: url('img/portfolio/anahuac/instalaciones.jpeg')"></div>
+                <div class="dark-over-pages"></div>
 
-            <div class="hero-center-section">
-                <div class="container z-bigger">
-                    <div class="row">
-                        <div class="col-12 section-title-wrap text-center parallax-fade-top-pages">
-                            <p>UX DESIGN | UI DESIGN | DEV </p>
-                            <h1>Anahuac Mayab <br>University</h1>
+                <div class="hero-center-section">
+                    <div class="container z-bigger">
+                        <div class="row">
+                            <div class="col-12 section-title-wrap text-center parallax-fade-top-pages">
+                                <p id="hero-subtitle">UX DESIGN | UI DESIGN | DEV</p>
+                                <h1 id="hero-title">Anahuac Mayab <br>University</h1>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </section>
 
-        <div class="section padding-top-bottom-big  background-dark-2">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-8 mb-4 tools-section"
-                        data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
-                        <div>
-                            <span class="mb-0 mr-3 pb-0 lead"><span class="role">Role:</span> UI/UX Lead + Frontend
-                                Development </span>
-                            <span class="mb-0 mr-3 pb-0 lead"><span class="role">Duration:</span> 18 Months </span><br>
+            <section class="section padding-top-bottom-big background-dark-2" aria-label="Project details">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 mb-4 tools-section"
+                            data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
+                            <div>
+                                <span class="mb-0 mr-3 pb-0 lead"><span class="role">Role:</span> UI/UX Lead + Frontend
+                                    Development </span>
+                                <span class="mb-0 mr-3 pb-0 lead"><span class="role">Duration:</span> 18 Months </span><br>
+                            </div>
+
+                            <span class="mb-0 mr-3 pb-0 lead"><span class="role">Tools:</span> Sketch, Figma, Miro, CSS, JS,
+                                Hubspot CMS and more.</span>
+
                         </div>
 
-                        <span class="mb-0 mr-3 pb-0 lead"><span class="role">Tools:</span> Sketch, Figma, Miro, CSS, JS,
-                            Hubspot CMS and more.</span>
 
-                    </div>
+                        <div class="col-md-8 padding-bottom "
+                            data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
+                            <p class="mb-0 pb-0 lead">Anáhuac Mayab University is a top private institution located in Mérida, Mexico. As the most prestigious university in the city, with over 4,000 students, it plays a key role in the Anáhuac University Network, the second most significant university network in Latin America.</p>
+                        </div>
+                        <div class="col-md-8 padding-top padding-bottom tldr"
+                            data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
+                            <h5 class="mt-3 mb-3">TL;DR </h5>
+                            <p class="lead">Improved Information Architecture, helped increase direct traffic by 89.42 %, and contact creation increased by 209.67%, saved uncountable hours of manual work and improved brand consistency.</p>
+                            <a href="#pretty-pictures" class="mt-3 cta-button over">
+                                Had enough case studies? Skip to the fun stuff! 🌟
+                            </a>
+                        </div>
 
-
-                    <div class="col-md-8 padding-bottom "
-                        data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
-                        <p class="mb-0 pb-0 lead">Anáhuac Mayab University is a top private institution located in Mérida, Mexico. As the most prestigious university in the city, with over 4,000 students, it plays a key role in the Anáhuac University Network, the second most significant university network in Latin America.</p>
-                    </div>
-                    <div class="col-md-8 padding-top padding-bottom tldr"
-                        data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
-                        <h5 class="mt-3 mb-3">TL;DR </h5>
-                        <p class="lead">Improved Information Architecture, helped increase direct traffic by 89.42 %, and contact creation increased by 209.67%, saved uncountable hours of manual work and improved brand consistency.</p>
-                        <a href="#pretty-pictures" class="mt-3 cta-button over">
-                            Had enough case studies? Skip to the fun stuff! 🌟
-                        </a>
-                    </div>
-
-                    <div class="col-md-8 padding-bottom "
-                        data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
-                        <h4 class="mb-4">The problem</h4>
-                        <p class="mb-0 pb-0 lead">When I started working as a UI/UX Designer and Developer, a few things stood out right away: brand assets were being used inconsistently, students were frustrated with how hard it was to navigate the site, and the absence of a search function wasn’t helping anyone. The website didn’t follow brand guidelines either—colors, fonts, and components were all over the place, which only made things messier.
-                        </p><br>
-                        <h4 class="mb-4">The Solution</h4>
-                        <h5 class="mb-4">Information Architecture</h5>
-                        <p class="mb-0 pb-0 lead">To get the site’s structure right, the first thing I noticed was that the navigation felt more like it was designed for the organization’s internal processes than for the students who actually used it. Through card sorting exercises, we reorganized everything from the ground up. This led to a much cleaner, more intuitive site structure that made sense to the students—not just the admin.</p>
-                    </div>
-                    <div class="container-fluid">
-                        <div class="row justify-content-center">
-                            <div class="col-md-12" data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
-                                <div class="img-wrap">
-                                    <img src="img/portfolio/anahuac/card-sorting.jpeg" alt="">
+                        <div class="col-md-8 padding-bottom "
+                            data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
+                            <h4 id="problem-section" class="mb-4">The problem</h4>
+                            <p class="mb-0 pb-0 lead">When I started working as a UI/UX Designer and Developer, a few things stood out right away: brand assets were being used inconsistently, students were frustrated with how hard it was to navigate the site, and the absence of a search function wasn’t helping anyone. The website didn’t follow brand guidelines either—colors, fonts, and components were all over the place, which only made things messier.
+                            </p><br>
+                            <h4 class="mb-4">The Solution</h4>
+                            <h5 class="mb-4">Information Architecture</h5>
+                            <p class="mb-0 pb-0 lead">To get the site’s structure right, the first thing I noticed was that the navigation felt more like it was designed for the organization’s internal processes than for the students who actually used it. Through card sorting exercises, we reorganized everything from the ground up. This led to a much cleaner, more intuitive site structure that made sense to the students—not just the admin.</p>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12" data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
+                                    <div class="img-wrap">
+                                        <img src="img/portfolio/anahuac/card-sorting.jpeg" alt="card sorting exercise">
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="section clearfix padding-top"></div>
-                    <div class="col-md-4 " data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
-                        <h5 class="mb-3">Card Sorting</h5>
-                        <p class="mb-0 pb-0">We used card sorting to run tests with both students and employees, giving us real insight into how different groups perceived the University’s structure and entities. Their feedback helped us redesign the navigation to reflect how users actually think, rather than just how the organization was set up internally.</p>
-                    </div>
-                    <div class="col-md-4  mt-4 mt-md-0"
-                        data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
-                        <h5 class="mb-3">Sitemap</h5>
-                        <p class="mb-0 pb-0">For building the new sitemap, we leveraged Flowmapp to design and gather feedback. It made collaboration with stakeholders easy, allowing them to leave comments directly on the sitemap. This feedback loop was crucial in ensuring the structure worked for everyone involved</p>
-                    </div>
-                    <div class="col-md-4  mt-4 mt-md-0"
-                        data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
-                        <h5 class="mb-3">User Interviews</h5>
-                        <p class="mb-0 pb-0">Conducted in-depth interviews with students and employees to dig deeper into their needs and frustrations. Listening to their stories gave us a better understanding of how they engaged with the site ensuring the new experience met their needs.
-                        </p>
-                    </div>
-                    <div class="section clearfix padding-bottom"></div>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row justify-content-center">
-                    <div class="col-md-12" data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
-                        <div class="img-wrap">
-                            <img src="img/portfolio/anahuac/sitemap.png" alt="">
+                        <div class="section clearfix padding-top"></div>
+                        <div class="col-md-4 " data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
+                            <h5 class="mb-3">Card Sorting</h5>
+                            <p class="mb-0 pb-0">We used card sorting to run tests with both students and employees, giving us real insight into how different groups perceived the University’s structure and entities. Their feedback helped us redesign the navigation to reflect how users actually think, rather than just how the organization was set up internally.</p>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-8 padding-top-bottom "
-                        data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
-                        <p class="mb-0 pb-0 lead">One of the first things I tackled was the missing site search. As soon as I implemented it, visitors started using it heavily, often more than the main navigation. But after redesigning the Information Architecture to make things easier to find, the reliance on search dropped a bit. Even with the smoother navigation, the search is still one of the most popular features on the site, which makes sense given its usefulness in a site of that scale.</p>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="img-wrap" data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
-                            <img src="img/portfolio/anahuac/heatmap.jpeg" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-8 padding-top padding-bottom "
-                        data-scroll-reveal="center bottom move 30px over 0.5s after 0.2s">
-                        <h5 class="mb-4">Design System </h5>
-                        <p class="mb-0 pb-0 lead">A key issue I noticed early on was the lack of brand consistency across the site. Content editors were using various components in different ways for the same tasks, which led to confusion and frequent mistakes. These components were too flexible, giving users too many options and no clear direction. Despite a recent rebranding—complete with new colors, typography, and an illustration system—there were no digital guidelines to maintain consistency.</p><br>
-                        <p class="mb-0 pb-0 pt-4 lead">II began designing and prototyping new components in Figma, which I then coded as reusable modules in Hubspot CMS. Initially, management questioned why I was spending additional time on what seemed like simple tasks. I pitched the idea of developing a design system to solve these issues long-term, but since they weren’t familiar with the concept, there was some hesitation. However, after a few months, the team began to see the value as reusable components saved time and improved the site's overall consistency.</p>
-                        <p class="mb-0 pb-0 pt-4 lead">Within the first four months, I had created over 25 reusable components. The benefits were clear, and as a result, I was put in charge of leading a team of two designers and a developer to expand the system. I led this team for a few months before moving on, and since then, the project has grown so much that they’re considering a unified design system for the entire university network.</p>
-                    </div>
-
-
-
-                    <div class="container-fluid">
-                        <div class="row justify-content-center"
+                        <div class="col-md-4  mt-4 mt-md-0"
                             data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
-                            <div class="img-wrap col-md-6">
-                                <img src="img/portfolio/anahuac/design-system.png" alt="">
-                            </div>
-                            <div class="img-wrap col-md-6">
-                                <img src="img/portfolio/anahuac/design-system-2.png" alt="">
+                            <h5 class="mb-3">Sitemap</h5>
+                            <p class="mb-0 pb-0">For building the new sitemap, we leveraged Flowmapp to design and gather feedback. It made collaboration with stakeholders easy, allowing them to leave comments directly on the sitemap. This feedback loop was crucial in ensuring the structure worked for everyone involved</p>
+                        </div>
+                        <div class="col-md-4  mt-4 mt-md-0"
+                            data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
+                            <h5 class="mb-3">User Interviews</h5>
+                            <p class="mb-0 pb-0">Conducted in-depth interviews with students and employees to dig deeper into their needs and frustrations. Listening to their stories gave us a better understanding of how they engaged with the site ensuring the new experience met their needs.
+                            </p>
+                        </div>
+                        <div class="section clearfix padding-bottom"></div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-md-12" data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
+                            <div class="img-wrap">
+                                <img src="img/portfolio/anahuac/sitemap.png" alt="flowmapp sitemap">
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 padding-top-bottom "
+                            data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
+                            <p class="mb-0 pb-0 lead">One of the first things I tackled was the missing site search. As soon as I implemented it, visitors started using it heavily, often more than the main navigation. But after redesigning the Information Architecture to make things easier to find, the reliance on search dropped a bit. Even with the smoother navigation, the search is still one of the most popular features on the site, which makes sense given its usefulness in a site of that scale.</p>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="img-wrap" data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
+                                <img src="img/portfolio/anahuac/heatmap.jpeg" alt="heatmap displaying concentration of mouse position in navbar">
+                            </div>
+                        </div>
+                        <div class="col-md-8 padding-top padding-bottom "
+                            data-scroll-reveal="center bottom move 30px over 0.5s after 0.2s">
+                            <h5 class="mb-4">Design System </h5>
+                            <p class="mb-0 pb-0 lead">A key issue I noticed early on was the lack of brand consistency across the site. Content editors were using various components in different ways for the same tasks, which led to confusion and frequent mistakes. These components were too flexible, giving users too many options and no clear direction. Despite a recent rebranding—complete with new colors, typography, and an illustration system—there were no digital guidelines to maintain consistency.</p><br>
+                            <p class="mb-0 pb-0 pt-4 lead">II began designing and prototyping new components in Figma, which I then coded as reusable modules in Hubspot CMS. Initially, management questioned why I was spending additional time on what seemed like simple tasks. I pitched the idea of developing a design system to solve these issues long-term, but since they weren’t familiar with the concept, there was some hesitation. However, after a few months, the team began to see the value as reusable components saved time and improved the site's overall consistency.</p>
+                            <p class="mb-0 pb-0 pt-4 lead">Within the first four months, I had created over 25 reusable components. The benefits were clear, and as a result, I was put in charge of leading a team of two designers and a developer to expand the system. I led this team for a few months before moving on, and since then, the project has grown so much that they’re considering a unified design system for the entire university network.</p>
+                        </div>
 
-                    <div class="container-fluid">
+
+
+                        <div class="container-fluid">
+                            <div class="row justify-content-center"
+                                data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
+                                <div class="img-wrap col-md-6">
+                                    <img src="img/portfolio/anahuac/design-system.png" alt="">
+                                </div>
+                                <div class="img-wrap col-md-6">
+                                    <img src="img/portfolio/anahuac/design-system-2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container-fluid">
                                                <div class="row justify-content-center padding-top-bottom"
                             data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s ">
                             <div class="img-wrap col-md-6">
@@ -223,44 +226,45 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-md-8 padding-top padding-bottom "
-                                data-scroll-reveal="center bottom move 30px over 0.5s after 0.2s">
-                                <h5 class="mb-4">Automation</h5>
-                                <p class="mb-0 pb-0 lead">When I joined the team the process of updating everything was done manually, for example; if a program or an event appeared on 5 different website pages they would go and spend hours and hours and this led to a lot of pages with outdated information.</p><br>
-                                <p class="mb-0 pb-0 pt-4 lead">With the help of the relational data storage system in Hubspot CMS (HubDB) I created some tables that could help us to be a single source of truth and by just updating here it would update in every single instance where this data was displayed, saving the company of hours and hours of manual work.</p>
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 padding-top padding-bottom "
+                            data-scroll-reveal="center bottom move 30px over 0.5s after 0.2s">
+                            <h5 class="mb-4">Automation</h5>
+                            <p class="mb-0 pb-0 lead">When I joined the team the process of updating everything was done manually, for example; if a program or an event appeared on 5 different website pages they would go and spend hours and hours and this led to a lot of pages with outdated information.</p><br>
+                            <p class="mb-0 pb-0 pt-4 lead">With the help of the relational data storage system in Hubspot CMS (HubDB) I created some tables that could help us to be a single source of truth and by just updating here it would update in every single instance where this data was displayed, saving the company of hours and hours of manual work.</p>
+                        </div>
+                        <div class="col-md-8  pt-4 padding-bottom "
+                            data-scroll-reveal="center bottom move 30px over 0.5s after 0.2s">
+                            <h4 class="mb-4">Results</h4>
+                            <p class="mb-0 pb-0 lead">The year after we began implementing these changes, these changes helped increase the following KPI's. Direct traffic increased by 89.42 %, and contact creation increased by 209.67% </p>
+                         </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-md-12" data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
+                            <div class="img-wrap">
+                                <img src="img/portfolio/anahuac/kpis.png" alt="KPI results showing increased traffic and contact creation">
                             </div>
-                            <div class="col-md-8  pt-4 padding-bottom "
-                                data-scroll-reveal="center bottom move 30px over 0.5s after 0.2s">
-                                <h4 class="mb-4">Results</h4>
-                                <p class="mb-0 pb-0 lead">The year after we began implementing these changes, these changes helped increase the following KPI's. Direct traffic increased by 89.42 %, and contact creation increased by 209.67% </p>
-                             </div>
                         </div>
                     </div>
-                    <div class="container-fluid">
-                        <div class="row justify-content-center">
-                            <div class="col-md-12" data-scroll-reveal="enter bottom move 30px over 0.5s after 0.2s">
-                                <div class="img-wrap">
-                                    <img src="img/portfolio/anahuac/kpis.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                </div>
 
-                    <div class="col-md-6 padding-top ">
-                        <a href="uibi.html" class="cursor-link animsition-link">
-                            <div class="project-link-wrap">
-                                <p>Next </p>
-                                <h3>Üibi</h3>
-                            </div>
-                        </a>
-                    </div>
+                <!-- Add the "Next project" button here, centered -->
+                <div class="col-md-12 padding-top text-center">
+                    <a href="uibi.html" class="cursor-link animsition-link">
+                        <div class="project-link-wrap">
+                            <p>Next </p>
+                            <h3>Üibi</h3>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
 
-        <div class="section padding-top-bottom-small background-black">
+        <footer class="section padding-top-bottom-small background-black" role="contentinfo">
             <div class="container-fluid px-5">
                 <div class="row">
                     <div class="col-md-6 footer  text-md-left">
@@ -276,15 +280,15 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </footer>
 
-        <div class="scroll-to-top cursor-link"></div>
+        <div class="scroll-to-top cursor-link" aria-label="Scroll to top" role="button" tabindex="0"></div>
 
         <!-- Page cursor
 	================================================== -->
 
-        <div class="cursor cursor-shadow"></div>
-        <div class="cursor cursor-dot"></div>
+        <div class="cursor cursor-shadow" aria-hidden="true"></div>
+        <div class="cursor cursor-dot" aria-hidden="true"></div>
 
 
     </div>
