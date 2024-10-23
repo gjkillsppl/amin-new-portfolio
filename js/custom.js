@@ -131,16 +131,16 @@
 
 
 	document.querySelector('.menu-icon').addEventListener('keydown', function(event) {
-		if (event.key === 'Enter' || event.key === ' ') {
-			event.preventDefault();
-			// Call your existing function to toggle the menu
-			toggleMenu();
-		}
-	});
-	
-	function toggleMenu() {
-		// Your existing code to open/close the menu
-	}
+    if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        // Call your existing function to toggle the menu
+        toggleMenu();
+    }
+});
+
+function toggleMenu() {
+    // Your existing code to open/close the menu
+}
 
 	
 	$(document).ready(function() {

@@ -73,7 +73,7 @@
 }
 
 h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6, .case-study-wrapper .case-study-name {
+.case-study-wrapper .case-study-name {
   font-family: 'pp_neue_machinaplain_semibold';
   font-weight: 600;
 }
@@ -112,6 +112,7 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: 2.2rem;
+  color:#deebc8;
 }
 
 h5, .h5 {
@@ -119,6 +120,7 @@ h5, .h5 {
   font-weight: 400;
   font-family: 'pp_neue_machinaplain_regular';
   text-transform: capitalize;
+  color:#deebc8;
 }
 
 h6, .h6 {
@@ -1687,6 +1689,27 @@ cursor: pointer !important;
 .velo-slide__pretitle {
   color: #fff;
   max-width: 22em;
+}
+
+
+.job {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #787878;
+  padding: 40px 0;
+}
+
+.job-1{
+  padding-top: 12px;
+}
+
+.job > *:first-child {
+  flex: 2;
+}
+
+.job > *:not(:first-child) {
+  flex: 1;
 }
 
 @media (min-width: 54em) {
