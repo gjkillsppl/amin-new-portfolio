@@ -7,14 +7,6 @@
 }
 
 @font-face {
-  font-family: 'Safiro';
-  src: url('../fonts/Safiro.woff2') format('woff2'),
-       url('../fonts/Safiro.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'Safiro-Regular';
   src: url('../fonts/Safiro-Regular.woff2') format('woff2'),
        url('../fonts/Safiro-Regular.woff') format('woff');
@@ -81,7 +73,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 body {
-  font-family: "Safiro";
+  font-family: "Safiro-Regular";
   font-weight: normal;
   font-size: 15px;
   line-height: 1.7;
@@ -957,7 +949,7 @@ body.nav-active .nav__list-item:nth-child(10) {
 .section-intro p{
   font-size: .75rem;
   font-weight: normal;
-  font-family: 'Safiro';
+  font-family: 'Safiro-Regular';
 }
 
 
@@ -1026,7 +1018,7 @@ body.nav-active .nav__list-item:nth-child(10) {
   padding: 0;
   margin: 0;
   color: #deebc8;
-  font-family: 'Safiro';
+  font-family: 'Safiro-Regular';
   font-size: .7rem;
   line-height: 28px;
   font-weight: normal;
