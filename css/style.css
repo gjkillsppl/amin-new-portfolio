@@ -7,60 +7,28 @@
 }
 
 @font-face {
-  font-family: 'pp_neue_machinaplainultraLt';
-  src: url('../fonts/ppneuemachina-plainultralight.woff2') format('woff2'),
-       url('../fonts/ppneuemachina-plainultralight.woff') format('woff');
+  font-family: 'Safiro';
+  src: url('../fonts/Safiro.woff2') format('woff2'),
+       url('../fonts/Safiro.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
-}
-
-
-
-
-@font-face {
-  font-family: 'pp_neue_machinaplain_thin';
-  src: url('../fonts/ppneuemachina-plainthin.woff2') format('woff2'),
-       url('../fonts/ppneuemachina-plainthin.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
 }
 
 @font-face {
-  font-family: 'pp_neue_machinaplain_regular';
-  src: url('../fonts/ppneuemachina-plainregular-webfont.woff2') format('woff2'),
-       url('../fonts/ppneuemachina-plainregular-webfont.woff') format('woff');
+  font-family: 'Safiro-Regular';
+  src: url('../fonts/Safiro-Regular.woff2') format('woff2'),
+       url('../fonts/Safiro-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
-
-
-
 
 @font-face {
-  font-family: 'pp_neue_machinaplain_semibold';
-  src: url('../fonts/ppneuemachina-plainsemibold-webfont.woff2') format('woff2'),
-       url('../fonts/ppneuemachina-plainsemibold-webfont.woff') format('woff');
-  font-weight: normal;
+  font-family: 'Safiro-Medium';
+  src: url('../fonts/Safiro-Medium.woff2') format('woff2'),
+       url('../fonts/Safiro-Medium.woff') format('woff');
+  font-weight: 500;
   font-style: normal;
-
 }
-
-
-
-
-@font-face {
-  font-family: 'pp_neue_machinaplain_bold';
-  src: url('../fonts/ppneuemachina-plainbold-webfont.woff2') format('woff2'),
-       url('../fonts/ppneuemachina-plainbold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-
 
 @font-face {
   font-family: 'WindsorD-Reg';
@@ -68,9 +36,7 @@
        url('../fonts/WindsorD-Reg.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
-
 
 @media (min-width: 1200px) {
   .container {
@@ -923,7 +889,7 @@ body.nav-active .nav__list-item:nth-child(10) {
 .nav__list .sub-links li a {
   color: rgba(255, 255, 255, 0.6);
   overflow: hidden;
-  font-family: "Roboto", sans-serif;
+  font-family: "Safiro-Regular";
   font-weight: 400;
   font-size: 15px;
   line-height: 22px;
@@ -1192,7 +1158,7 @@ cursor: pointer !important;
   letter-spacing: 1px;
   font-size: 13px;
   font-weight: 600;
-  font-family: 'pp_neue_machinaplain_regular';
+  font-family: 'Safiro-Medium';
   line-height: 16px;
   color: #21201F;
   border-radius: 20px;
@@ -1308,7 +1274,7 @@ cursor: pointer !important;
   color: #fff;
   line-height: 20px;
   font-weight: 400;
-  font-family: 'pp_neue_machinaplain_regular';
+  font-family: 'Safiro-Regular';
   font-size: 13px;
   letter-spacing: 2px;
   z-index: 20;
@@ -1372,7 +1338,7 @@ cursor: pointer !important;
   line-height: 40px;
   text-align: center;
   font-weight: 400;
-  font-family: 'pp_neue_machinaplain_regular';
+  font-family: 'Safiro-Regular';
   padding: 2px 0;
   font-size: 13px;
   cursor: pointer;
@@ -2210,7 +2176,7 @@ cursor: pointer !important;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   outline: none;
-  font-family: "Roboto", sans-serif;
+  font-family: "Safiro-Regular";
   color: #f9f9f9;
   font-weight: 300;
   font-style: italic;
@@ -2311,7 +2277,7 @@ cursor: pointer !important;
 
 .tldr h5 {
   color: #E15B5B;
-  font-family: 'pp_neue_machinaplain_semibold';
+  font-family: 'Safiro-Medium';
 }
 
 .project-link-wrap {
@@ -2321,7 +2287,7 @@ cursor: pointer !important;
   text-align: center;
   margin: 0 auto;
   cursor: pointer;
-  font-family:  "pp_neue_machinaplain_regular";
+  font-family:  "Safiro-Regular";
 }
 
 .project-link-wrap p {
@@ -2334,7 +2300,7 @@ cursor: pointer !important;
   cursor: pointer;
   opacity: 0.35;
   -webkit-transition: all 200ms linear;
-  font-family: 'pp_neue_machinaplain_semibold';
+  font-family: 'Safiro-Medium';
   transition: all 200ms linear;
 }
 
@@ -2808,7 +2774,7 @@ figure.vimeo a img, figure.youtube a img {
 .post-comm-box h6 small {
   text-transform: none;
   font-weight: 400;
-  font-family: 'pp_neue_machinaplain_regular';
+  font-family: 'Safiro-Regular';
   font-size: 0.7rem;
   font-style: italic;
   margin-left: 10px;
@@ -2855,7 +2821,7 @@ figure.vimeo a img, figure.youtube a img {
   width: 100%;
   padding: 20px;
   font-weight: 400;
-  font-family: 'pp_neue_machinaplain_regular';
+  font-family: 'Safiro-Regular';
   letter-spacing: 1px;
   font-size: 15px;
   line-height: 1.7;
@@ -2958,7 +2924,7 @@ figure.vimeo a img, figure.youtube a img {
           box-shadow: none;
   padding: 20px 15px;
   font-weight: 400;
-  font-family: 'pp_neue_machinaplain_regular';
+  font-family: 'Safiro-Regular';
   letter-spacing: 1px;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
@@ -3086,7 +3052,7 @@ figure.vimeo a img, figure.youtube a img {
   width: 100%;
   padding: 20px 20px;
   font-weight: 400;
-  font-family: 'pp_neue_machinaplain_regular';
+  font-family: 'Safiro-Regular';
   letter-spacing: 1px;
   font-size: 15px;
   line-height: 1.7;
@@ -3308,7 +3274,7 @@ figure.vimeo a img, figure.youtube a img {
   line-height: 1.7;
   letter-spacing: 2px;
   font-weight: 400;
-  font-family: 'pp_neue_machinaplain_regular';
+  font-family: 'Safiro-Regular';
   color: #c4c3ca;
   -webkit-transition: all 250ms linear;
   transition: all 250ms linear;
@@ -3356,7 +3322,7 @@ figure.vimeo a img, figure.youtube a img {
   padding: 0;
   line-height: 20px;
   font-weight: 400;
-  font-family: 'pp_neue_machinaplain_regular';
+  font-family: 'Safiro-Regular';
   font-size: 13px;
   letter-spacing: 2px;
 }
@@ -3390,7 +3356,7 @@ figure.vimeo a img, figure.youtube a img {
   color: #fff;
   display: block;
   float: left;
-  font-family: "Sweet Sans Pro", sans-serif;
+  font-family: "Safiro", sans-serif;
   font-size: 2.2rem;
   line-height: 1.7;
   margin: 0;
@@ -3415,7 +3381,7 @@ figure.vimeo a img, figure.youtube a img {
   font-size: 14px;
   font-weight: 400;
   color: #c4c3ca;
-  font-family: 'pp_neue_machinaplain_regular';
+  font-family: 'Safiro-Regular';
   font-style: italic;
 }
 
