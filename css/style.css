@@ -102,8 +102,6 @@ h1, h2, h3, h4, h5, h6,
 .case-study-wrapper .case-study-name {
   font-family: 'Safiro-Bold';
   font-weight: 700;
-  -webkit-font-feature-settings: "liga" on, "calt" on;
-  font-feature-settings: "liga" on, "calt" on;
 }
 
 body {
@@ -726,10 +724,7 @@ a:hover {
   overflow: hidden;
   font-family: "Safiro-Bold";
   font-size: 8vh;
-  font-weight: 700;
   line-height: 1.05;
-  -webkit-font-feature-settings: "liga" on, "calt" on;
-  font-feature-settings: "liga" on, "calt" on;
   -webkit-transform: translate(0%, 100%);
   transform: translate(0%, 100%);
   -webkit-transition: opacity 0.2s ease, -webkit-transform 0.3s ease;
