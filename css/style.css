@@ -1015,8 +1015,8 @@ body.nav-active .nav__list-item:nth-child(10) {
 .case-study-wrapper .case-study-name span {
   position: relative;
   display: inline-block;
-  font-weight: normal;
-  font-family: degular, sans-serif;
+  font-weight: 600;
+  font-family: degular-display, sans-serif;
 }
 
 .case-study-wrapper .case-study-name .project-name-link{
