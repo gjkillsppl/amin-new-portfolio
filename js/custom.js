@@ -423,3 +423,46 @@ function toggleMenu() {
 	  }
 	}
   }
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Existing marquee code
+    const marquee = document.querySelector('.marquee');
+    const content = marquee.querySelector('.marquee-content');
+    
+    // Clone the content three times
+    marquee.appendChild(content.cloneNode(true));
+    marquee.appendChild(content.cloneNode(true));
+    marquee.appendChild(content.cloneNode(true));
+    
+    // Set up the marquee animation
+    function setupMarquee() {
+      // ... existing marquee setup code ...
+    }
+    
+    setupMarquee();
+    window.addEventListener('resize', setupMarquee);
+
+    // Add new heading animation code
+    const headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+    
+    headings.forEach(heading => {
+      heading.classList.add('stagger-animate');
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, index) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => {
+            entry.target.classList.add('animate');
+          }, index * 100);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.2
+    });
+
+    headings.forEach(heading => observer.observe(heading));
+  });
+</script>
