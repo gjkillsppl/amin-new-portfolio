@@ -372,14 +372,15 @@ a.cursor-link.animsition-link.coming-soon-link{
 }
 
 .section-title-wrap p.emoji {
-  font-size: 4rem;
+    font-size: 5rem;
+  line-height: .9;
 }
 
 .section-title-wrap h1 {
   margin: 0;
   padding: 0;
-  font-size: 4rem;
-  line-height: 1.1;
+  font-size: 5rem;
+  line-height: .9;
 }
 
 .scroll-to-top {
@@ -3390,7 +3391,8 @@ figure.vimeo a img, figure.youtube a img {
   }
  
   .section-title-wrap h1 {
-    font-size: 4rem;
+    font-size: 5rem;
+    line-height: .9;
   }
 }
 
