@@ -7,7 +7,6 @@
   --light-green: #deebc8;
 }
 
-
 @font-face {
   font-family: 'WindsorD-Reg';
   src: url('../fonts/WindsorD-Reg.woff2') format('woff2'),
@@ -22,30 +21,28 @@
   }
 }
 
-
-  .mt-3.foto-amin img:after {
-    content: '';
-    background: var(--light-green);
-    mix-blend-mode: multiply;
-    height: 100%;
-    top: 0%;
-    width: 100%;
-    opacity: 0.5;
-    position: absolute;
+.mt-3.foto-amin img:after {
+  content: '';
+  background: var(--light-green);
+  mix-blend-mode: multiply;
+  height: 100%;
+  top: 0%;
+  width: 100%;
+  opacity: 0.5;
+  position: absolute;
 }
 
 .gradient-div {
   position: absolute;
   inset: 0;
-  top: 4rem; /* Equivalent to top-16 */
-  height: 10rem; /* Equivalent to h-40 */
-  width: 100%; /* Equivalent to w-full */
-  border-radius: 9999px; /* Equivalent to rounded-full */
-  background: linear-gradient(to right, #0891b2, #0ea5e9, #7c3aed); /* Equivalent to bg-gradient-to-r from-cyan-600 via-sky-500 to-violet-600 */
-  opacity: 0.25; /* Equivalent to opacity-25 */
+  top: 4rem;
+  height: 10rem;
+  width: 100%;
+  border-radius: 9999px;
+  background: linear-gradient(to right, #0891b2, #0ea5e9, #7c3aed);
+  opacity: 0.25;
   filter: blur(6rem) brightness(1) contrast(1) grayscale(0) hue-rotate(0deg) invert(0) saturate(1) sepia(0) drop-shadow(0 0 0 #0000);
 }
-
 
 .case-study-name-title, .case-study-images li .hero-number-back {
   font-family: degular, sans-serif;
@@ -115,22 +112,12 @@ h6, .h6 {
 
 ::-moz-selection {
   color: #000;
-}
-
-::selection {
-  color: #000;
-}
-
-::-moz-selection {
-  color: #000;
-}
-
-::selection {
   background-color: #f0fce6;
 }
 
-::-moz-selection {
-  background-color:  #f0fce6;
+::selection {
+  color: #000;
+  background-color: #f0fce6;
 }
 
 mark {
@@ -141,8 +128,6 @@ mark {
 a.cursor-link.animsition-link.coming-soon-link{
   pointer-events: none;
 }
-
-
 
 .role {
   color: var(--light-green);
@@ -522,9 +507,6 @@ a:hover {
   margin-left: .1rem;
 }
   
- 
-
-
 .cd-header {
   position: absolute;
   top: 0;
@@ -705,20 +687,12 @@ a:hover {
   transition: all 200ms linear;
 }
 
-
-
 .nav__list-item a:hover {
   color: rgb(222, 235, 200, 0.6);
 }
 
 .nav__list-item.active-nav a {
- 
   color: var(--light-green);
-}
-
-.nav__list-item.active-nav a:after {
-  left: 0;
-  opacity: 1;
 }
 
 body.nav-active .nav__content {
@@ -932,7 +906,6 @@ body.nav-active .nav__list-item:nth-child(10) {
   font-weight: normal;
   font-family: degular, sans-serif;
 }
-
 
 .case-study-wrapper {
   position: absolute;
