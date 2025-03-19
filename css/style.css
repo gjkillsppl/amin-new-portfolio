@@ -48,7 +48,7 @@
 
 
 .case-study-name-title, .case-study-images li .hero-number-back {
-  font-family: 'degular-text';
+  font-family: 'degular';
   font-weight: normal;
 }
 
@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 body {
-  font-family: "degular-text";
+  font-family: "degular";
   font-weight: normal;
   font-size: 15px;
   line-height: 1.7;
@@ -99,7 +99,7 @@ h5, .h5 {
   font-size: 1.6rem;
   font-style: italic;
   font-weight: normal;
-  font-family: 'degular-text';
+  font-family: 'degular';
   text-transform: capitalize;
   color: var(--light-green);
 }
@@ -145,7 +145,7 @@ a.cursor-link.animsition-link.coming-soon-link{
 
 .role {
   color: var(--light-green);
-  font-family: 'degular-text';
+  font-family: 'degular';
 }
 
 .lead {
@@ -862,7 +862,7 @@ body.nav-active .nav__list-item:nth-child(10) {
 .nav__list .sub-links li a {
   color: rgba(255, 255, 255, 0.6);
   overflow: hidden;
-  font-family: "degular-text";
+  font-family: "degular";
   font-size: 15px;
   line-height: 22px;
   padding: 0;
@@ -929,7 +929,7 @@ body.nav-active .nav__list-item:nth-child(10) {
 .section-intro p{
   font-size: .75rem;
   font-weight: normal;
-  font-family: 'degular-text';
+  font-family: 'degular';
 }
 
 
@@ -998,7 +998,7 @@ body.nav-active .nav__list-item:nth-child(10) {
   padding: 0;
   margin: 0;
   color: #deebc8;
-  font-family: 'degular-text';
+  font-family: 'degular';
   font-size: .7rem;
   line-height: 28px;
   font-weight: normal;
@@ -1041,7 +1041,7 @@ body.nav-active .nav__list-item:nth-child(10) {
   position: relative;
   display: inline-block;
   font-weight: normal;
-  font-family: 'degular-text';
+  font-family: 'degular';
 }
 
 .case-study-wrapper .case-study-name .project-name-link{
@@ -1130,7 +1130,7 @@ cursor: pointer !important;
   letter-spacing: 1px;
   font-size: 13px;
   font-weight: 600;
-  font-family: 'degular-text';
+  font-family: 'degular';
   line-height: 16px;
   color: #21201F;
   border-radius: 20px;
@@ -1246,7 +1246,7 @@ cursor: pointer !important;
   color: #fff;
   line-height: 20px;
   font-weight: 400;
-  font-family: 'degular-text';
+  font-family: 'degular';
   font-size: 13px;
   letter-spacing: 2px;
   z-index: 20;
@@ -1310,7 +1310,7 @@ cursor: pointer !important;
   line-height: 40px;
   text-align: center;
   font-weight: 400;
-  font-family: 'degular-text';
+  font-family: 'degular';
   padding: 2px 0;
   font-size: 13px;
   cursor: pointer;
@@ -1327,7 +1327,7 @@ cursor: pointer !important;
 
 .btn-draw, .velo-slider__hint > span {
   font-size: 0.8em;
-  font-family: 'degular-text';
+  font-family: 'degular';
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 0.2em;
@@ -1708,7 +1708,7 @@ cursor: pointer !important;
   margin: 1em 0 1.5em 1%;
   line-height: 1.2;
   font-weight: normal;
-  font-family: 'degular-text';
+  font-family: 'degular';
   font-size: 17px;
   font-style: italic;
   letter-spacing: 1px;
@@ -1995,7 +1995,7 @@ cursor: pointer !important;
   color: hsl(0, 0%, 0%);
   text-decoration: none;
   font-size: 16px;
-  font-family: 'degular-text';
+  font-family: 'degular';
   font-weight: normal;
   border-radius: 10px;
   transition: background-color 0.3s ease;
@@ -2148,7 +2148,7 @@ cursor: pointer !important;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   outline: none;
-  font-family: "degular-text";
+  font-family: "degular";
   color: #f9f9f9;
   font-weight: 300;
   font-style: italic;
@@ -2249,7 +2249,7 @@ cursor: pointer !important;
 
 .tldr h5 {
   color: #E15B5B;
-  font-family: 'degular-text';
+  font-family: 'degular';
 }
 
 .project-link-wrap {
@@ -2259,7 +2259,7 @@ cursor: pointer !important;
   text-align: center;
   margin: 0 auto;
   cursor: pointer;
-  font-family:  "degular-text";
+  font-family:  "degular";
 }
 
 .project-link-wrap p {
@@ -2272,7 +2272,7 @@ cursor: pointer !important;
   cursor: pointer;
   opacity: 0.35;
   -webkit-transition: all 200ms linear;
-  font-family: 'degular-text';
+  font-family: 'degular';
   transition: all 200ms linear;
 }
 
@@ -2614,7 +2614,7 @@ figure.vimeo a img, figure.youtube a img {
   position: relative;
   display: inline-block;
   font-weight: normal;
-  font-family: 'degular-text';
+  font-family: 'degular';
   transition: all 300ms linear;
 }
 
@@ -2746,7 +2746,7 @@ figure.vimeo a img, figure.youtube a img {
 .post-comm-box h6 small {
   text-transform: none;
   font-weight: 400;
-  font-family: 'degular-text';
+  font-family: 'degular';
   font-size: 0.7rem;
   font-style: italic;
   margin-left: 10px;
@@ -2793,7 +2793,7 @@ figure.vimeo a img, figure.youtube a img {
   width: 100%;
   padding: 20px;
   font-weight: 400;
-  font-family: 'degular-text';
+  font-family: 'degular';
   letter-spacing: 1px;
   font-size: 15px;
   line-height: 1.7;
@@ -2896,7 +2896,7 @@ figure.vimeo a img, figure.youtube a img {
           box-shadow: none;
   padding: 20px 15px;
   font-weight: 400;
-  font-family: 'degular-text';
+  font-family: 'degular';
   letter-spacing: 1px;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
@@ -3024,7 +3024,7 @@ figure.vimeo a img, figure.youtube a img {
   width: 100%;
   padding: 20px 20px;
   font-weight: 400;
-  font-family: 'degular-text';
+  font-family: 'degular';
   letter-spacing: 1px;
   font-size: 15px;
   line-height: 1.7;
@@ -3246,7 +3246,7 @@ figure.vimeo a img, figure.youtube a img {
   line-height: 1.7;
   letter-spacing: 2px;
   font-weight: 400;
-  font-family: 'degular-text';
+  font-family: 'degular';
   color: #c4c3ca;
   -webkit-transition: all 250ms linear;
   transition: all 250ms linear;
@@ -3294,7 +3294,7 @@ figure.vimeo a img, figure.youtube a img {
   padding: 0;
   line-height: 20px;
   font-weight: 400;
-  font-family: 'degular-text';
+  font-family: 'degular';
   font-size: 13px;
   letter-spacing: 2px;
 }
@@ -3353,7 +3353,7 @@ figure.vimeo a img, figure.youtube a img {
   font-size: 14px;
   font-weight: 400;
   color: #c4c3ca;
-  font-family: 'degular-text';
+  font-family: 'degular';
   font-style: italic;
 }
 
