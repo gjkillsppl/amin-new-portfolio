@@ -70,7 +70,7 @@ body {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 0;
   line-height: 1.35;
   color: #fff;
@@ -78,12 +78,12 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
   font-size: 4rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 h2, .h2 {
   font-size: 3.4rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 h3, .h3 {
@@ -107,7 +107,7 @@ h5, .h5 {
 h6, .h6 {
   font-size: 1rem;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0px;
   color: var(--light-green);
 }
@@ -2266,7 +2266,7 @@ cursor: pointer !important;
   font-size: 50px;
   line-height: 60px;
   color: #c4c3ca;
-  font-weight: 700;
+  font-weight: 600;
   text-align: center;
   margin: 0 auto;
   cursor: pointer;
@@ -2829,28 +2829,28 @@ figure.vimeo a img, figure.youtube a img {
   font-size: 15px;
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .form-control:-ms-input-placeholder {
   font-size: 15px;
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .form-control::-ms-input-placeholder {
   font-size: 15px;
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .form-control::placeholder {
   font-size: 15px;
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .for-textarea {
@@ -3074,56 +3074,56 @@ figure.vimeo a img, figure.youtube a img {
   font-size: 15px;
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .ajax-form input::-moz-placeholder {
   font-size: 15px;
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .ajax-form input:-moz-placeholder {
   font-size: 15px;
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .ajax-form input::-webkit-input-placeholder {
   font-size: 15px;
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .ajax-form textarea:-ms-input-placeholder {
   font-size: 15px;
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .ajax-form textarea::-moz-placeholder {
   font-size: 15px;
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .ajax-form textarea:-moz-placeholder {
   font-size: 15px;
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .ajax-form textarea::-webkit-input-placeholder {
   font-size: 15px;
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .ajax-form button {
