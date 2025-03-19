@@ -99,7 +99,7 @@ h5, .h5 {
   font-size: 1.6rem;
   font-style: italic;
   font-weight: normal;
-  font-family: 'Safiro-Medium';
+  font-family: 'degular-text';
   text-transform: capitalize;
   color: var(--light-green);
 }
@@ -145,7 +145,7 @@ a.cursor-link.animsition-link.coming-soon-link{
 
 .role {
   color: var(--light-green);
-  font-family: 'Safiro-Medium';
+  font-family: 'degular-text';
 }
 
 .lead {
@@ -1130,7 +1130,7 @@ cursor: pointer !important;
   letter-spacing: 1px;
   font-size: 13px;
   font-weight: 600;
-  font-family: 'Safiro-Medium';
+  font-family: 'degular-text';
   line-height: 16px;
   color: #21201F;
   border-radius: 20px;
@@ -2249,7 +2249,7 @@ cursor: pointer !important;
 
 .tldr h5 {
   color: #E15B5B;
-  font-family: 'Safiro-Medium';
+  font-family: 'degular-text';
 }
 
 .project-link-wrap {
@@ -2272,7 +2272,7 @@ cursor: pointer !important;
   cursor: pointer;
   opacity: 0.35;
   -webkit-transition: all 200ms linear;
-  font-family: 'Safiro-Medium';
+  font-family: 'degular-text';
   transition: all 200ms linear;
 }
 
