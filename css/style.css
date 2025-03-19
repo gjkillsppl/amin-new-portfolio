@@ -2588,7 +2588,6 @@ figure.vimeo a img, figure.youtube a img {
 .case-study-wrapper .case-study-name span {
   position: relative;
   display: inline-block;
-  font-weight: normal;
   font-family: degular, sans-serif;
   transition: all 300ms linear;
 }
