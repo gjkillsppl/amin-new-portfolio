@@ -903,7 +903,7 @@ body.nav-active .nav__list-item:nth-child(10) {
 }
 
 .section-intro p{
-  font-size: .75rem;
+  font-size: 1rem;
   font-weight: normal;
   font-family: degular, sans-serif;
 }
