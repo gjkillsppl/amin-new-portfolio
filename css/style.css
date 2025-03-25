@@ -3590,7 +3590,7 @@ figure.vimeo a img, figure.youtube a img {
   z-index: 19;
   max-width: 300px;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: degular-display, sans-serif;
   line-height: 1.4;
   -webkit-transform: translateY(100%);
