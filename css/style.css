@@ -3588,7 +3588,7 @@ figure.vimeo a img, figure.youtube a img {
   opacity: 0;
   color: #fff;
   z-index: 19;
-  max-width: 400px;
+  max-width: 300px;
   font-size: 14px;
   font-weight: normal;
   font-family: degular, sans-serif;
